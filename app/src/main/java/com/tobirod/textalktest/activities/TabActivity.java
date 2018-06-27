@@ -67,7 +67,7 @@ public class TabActivity extends AppCompatActivity {
         position = this.getIntent().getIntExtra("Position", 0);
         mViewPager.setCurrentItem(position);
 
-        mTabLayout = findViewById(R.id.tab_layout);
+        mTabLayout = findViewById(R.id.page_indicator_layout);
         mTabLayout.setupWithViewPager(mViewPager, true);
 
     }
